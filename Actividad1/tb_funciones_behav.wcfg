@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_funciones_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_funciones" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="29.959 ns"></ZoomStartTime>
+      <ZoomEndTime time="90.210 ns"></ZoomEndTime>
+      <Cursor1Time time="40.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tb_funciones/a" type="logic">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/b" type="logic">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/f0" type="logic">
+      <obj_property name="ElementShortName">f0</obj_property>
+      <obj_property name="ObjectShortName">f0</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/f1" type="logic">
+      <obj_property name="ElementShortName">f1</obj_property>
+      <obj_property name="ObjectShortName">f1</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/f2" type="logic">
+      <obj_property name="ElementShortName">f2</obj_property>
+      <obj_property name="ObjectShortName">f2</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/f3" type="logic">
+      <obj_property name="ElementShortName">f3</obj_property>
+      <obj_property name="ObjectShortName">f3</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/f4" type="logic">
+      <obj_property name="ElementShortName">f4</obj_property>
+      <obj_property name="ObjectShortName">f4</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/f5" type="logic">
+      <obj_property name="ElementShortName">f5</obj_property>
+      <obj_property name="ObjectShortName">f5</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/f6" type="logic">
+      <obj_property name="ElementShortName">f6</obj_property>
+      <obj_property name="ObjectShortName">f6</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/TbSimEnded" type="logic">
+      <obj_property name="ElementShortName">TbSimEnded</obj_property>
+      <obj_property name="ObjectShortName">TbSimEnded</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_funciones/Tb_semiPeriod" type="other">
+      <obj_property name="ElementShortName">Tb_semiPeriod</obj_property>
+      <obj_property name="ObjectShortName">Tb_semiPeriod</obj_property>
+   </wvobject>
+</wave_config>
