@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dec7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/ULL/SED/Actividad4/Actividad4.srcs/sim_1/new/dec7seg_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dec7seg_tb'

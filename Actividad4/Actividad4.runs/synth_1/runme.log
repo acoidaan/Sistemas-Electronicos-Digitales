@@ -1,0 +1,244 @@
+
+*** Running vivado
+    with args -log dec7seg_estructural.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dec7seg_estructural.tcl
+
+
+
+****** Vivado v2023.2 (64-bit)
+  **** SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+  **** IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+  **** SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source dec7seg_estructural.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/ULL/SED/Actividad4/Actividad4.srcs/utils_1/imports/synth_1/dec7seg.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/ULL/SED/Actividad4/Actividad4.srcs/utils_1/imports/synth_1/dec7seg.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top dec7seg_estructural -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 23604
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1415.168 ; gain = 439.129
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'dec7seg_estructural' [C:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg_estructural.vhd:14]
+	Parameter INIT bound to: 16'b0000000000010010 
+INFO: [Synth 8-113] binding component instance 'LUT4_inst0' to cell 'LUT4' [C:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg_estructural.vhd:22]
+	Parameter INIT bound to: 16'b0000000001100000 
+INFO: [Synth 8-113] binding component instance 'LUT4_inst1' to cell 'LUT4' [C:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg_estructural.vhd:32]
+	Parameter INIT bound to: 16'b0000000000000100 
+INFO: [Synth 8-113] binding component instance 'LUT4_inst2' to cell 'LUT4' [C:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg_estructural.vhd:42]
+	Parameter INIT bound to: 16'b0000000010010010 
+INFO: [Synth 8-113] binding component instance 'LUT4_inst3' to cell 'LUT4' [C:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg_estructural.vhd:52]
+	Parameter INIT bound to: 16'b0000001010111010 
+INFO: [Synth 8-113] binding component instance 'LUT4_inst4' to cell 'LUT4' [C:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg_estructural.vhd:62]
+	Parameter INIT bound to: 16'b0000000010001110 
+INFO: [Synth 8-113] binding component instance 'LUT4_inst5' to cell 'LUT4' [C:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg_estructural.vhd:72]
+	Parameter INIT bound to: 16'b0000000010000011 
+INFO: [Synth 8-113] binding component instance 'LUT4_inst6' to cell 'LUT4' [C:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg_estructural.vhd:82]
+INFO: [Synth 8-256] done synthesizing module 'dec7seg_estructural' (0#1) [C:/ULL/SED/Actividad4/Actividad4.srcs/sources_1/new/dec7seg_estructural.vhd:14]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1523.164 ; gain = 547.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1523.164 ; gain = 547.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1523.164 ; gain = 547.125
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1523.164 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/ULL/SED/Actividad4/Actividad4.srcs/constrs_1/imports/Actividad4/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/ULL/SED/Actividad4/Actividad4.srcs/constrs_1/imports/Actividad4/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/ULL/SED/Actividad4/Actividad4.srcs/constrs_1/imports/Actividad4/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/dec7seg_estructural_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/dec7seg_estructural_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1569.613 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+El sistema no puede encontrar la ruta especificada.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1569.613 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/ULL/SED/Actividad4/Actividad4.srcs/utils_1/imports/synth_1/dec7seg.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     7|
+|2     |IBUF |     4|
+|3     |OBUF |     7|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:18 . Memory (MB): peak = 1569.613 ; gain = 593.574
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 1569.613 ; gain = 547.125
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:19 . Memory (MB): peak = 1569.613 ; gain = 593.574
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1569.613 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1569.613 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+El sistema no puede encontrar la ruta especificada.
+Synth Design complete | Checksum: 578cd1a9
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1569.613 ; gain = 1000.625
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1569.613 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/ULL/SED/Actividad4/Actividad4.runs/synth_1/dec7seg_estructural.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file dec7seg_estructural_utilization_synth.rpt -pb dec7seg_estructural_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  7 11:59:22 2024...

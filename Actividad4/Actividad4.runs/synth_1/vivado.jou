@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Mar  7 11:58:53 2024
+# Process ID: 30456
+# Current directory: C:/ULL/SED/Actividad4/Actividad4.runs/synth_1
+# Command line: vivado.exe -log dec7seg_estructural.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dec7seg_estructural.tcl
+# Log file: C:/ULL/SED/Actividad4/Actividad4.runs/synth_1/dec7seg_estructural.vds
+# Journal file: C:/ULL/SED/Actividad4/Actividad4.runs/synth_1\vivado.jou
+# Running On: ACO, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 14, Host memory: 16876 MB
+#-----------------------------------------------------------
+source dec7seg_estructural.tcl -notrace
