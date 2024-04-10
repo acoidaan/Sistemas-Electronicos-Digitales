@@ -42,6 +42,6 @@ begin
         wait for 100 ns;
         ce <= '1';
         wait;
-        end process;
+      end process;
 
 end Behavioral;

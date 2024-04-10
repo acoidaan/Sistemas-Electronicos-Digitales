@@ -1,7 +1,0 @@
-Running: xsim.dir/sistema119_behav/xsimk.exe -simmode gui -wdb sistema119_behav.wdb -simrunnum 0 -socket 58795
-Design successfully loaded
-Design Loading Memory Usage: 7908 KB (Peak: 7908 KB)
-Design Loading CPU Usage: 0 ms
-Simulation completed
-Simulation Memory Usage: 8432 KB (Peak: 8432 KB)
-Simulation CPU Usage: 0 ms
