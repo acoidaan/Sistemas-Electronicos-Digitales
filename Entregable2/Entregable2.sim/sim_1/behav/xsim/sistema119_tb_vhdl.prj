@@ -2,8 +2,10 @@
 vhdl xil_defaultlib  \
 "../../../../Entregable2.srcs/sources_1/new/contador119.vhd" \
 "../../../../Entregable2.srcs/sources_1/imports/new/dec7seg.vhd" \
+"../../../../Entregable2.srcs/sources_1/new/ffD_preset.vhd" \
 "../../../../Entregable2.srcs/sources_1/new/ffD_reset.vhd" \
 "../../../../Entregable2.srcs/sources_1/new/ffT_preset.vhd" \
+"../../../../Entregable2.srcs/sources_1/new/ffT_reset.vhd" \
 "../../../../Entregable2.srcs/sources_1/new/sistema119.vhd" \
 "../../../../Entregable2.srcs/sim_1/new/sistema119_tb.vhd" \
 

@@ -8,18 +8,18 @@ end sistema119_tb;
 architecture Behavioral of sistema119_tb is
 
     component sistema119
-        port (clk : in std_logic;
-              ce : in std_logic;
+        port (clk   : in std_logic;
+              ce    : in std_logic;
               reset : in std_logic;
               count : out std_logic_vector (3 downto 0);
-              led : out std_logic_vector (6 downto 0));
+              led   : out std_logic_vector (6 downto 0));
     end component;
     
-    signal clk : std_logic := '0';
-    signal ce : std_logic := '0';
+    signal clk   : std_logic := '0';
+    signal ce    : std_logic := '0';
     signal reset : std_logic := '0';
     signal count : std_logic_vector (3 downto 0);
-    signal led : std_logic_vector (6 downto 0);
+    signal led   : std_logic_vector (6 downto 0);
     
 begin
 
@@ -37,11 +37,10 @@ begin
     begin
     
         ce <= '0'; reset <= '1';
-        wait for 100 ns;
-        reset <= '0';
-        wait for 100 ns;
-        ce <= '1';
-        wait;
+        wait for 20 ns;
+        reset <= '0'; ce <= '1';
+        wait for 180 ns;
+        reset <= '1';
     end process;
 
 end Behavioral;
