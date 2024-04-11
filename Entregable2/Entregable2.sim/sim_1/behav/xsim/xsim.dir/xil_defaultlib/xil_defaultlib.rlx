@@ -2,11 +2,11 @@
 2020.2
 Oct 13 2023
 20:47:58
-D:/ULL/SED/Entregable2/Entregable2.srcs/sim_1/new/sistema119_tb.vhd,1712840834,vhdl,,,,sistema119_tb,,,,,,,,
-D:/ULL/SED/Entregable2/Entregable2.srcs/sources_1/imports/new/dec7seg.vhd,1709803229,vhdl,,,,dec7seg,,,,,,,,
-D:/ULL/SED/Entregable2/Entregable2.srcs/sources_1/new/contador119.vhd,1712840352,vhdl,,,,contador119,,,,,,,,
-D:/ULL/SED/Entregable2/Entregable2.srcs/sources_1/new/ffD_preset.vhd,1712784516,vhdl,,,,ffd_preset,,,,,,,,
-D:/ULL/SED/Entregable2/Entregable2.srcs/sources_1/new/ffD_reset.vhd,1712784406,vhdl,,,,ffd_reset,,,,,,,,
-D:/ULL/SED/Entregable2/Entregable2.srcs/sources_1/new/ffT_preset.vhd,1712784275,vhdl,,,,fft_preset,,,,,,,,
-D:/ULL/SED/Entregable2/Entregable2.srcs/sources_1/new/ffT_reset.vhd,1712783695,vhdl,,,,fft_reset,,,,,,,,
-D:/ULL/SED/Entregable2/Entregable2.srcs/sources_1/new/sistema119.vhd,1712785835,vhdl,,,,sistema119,,,,,,,,
+C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sim_1/new/sistema119_tb.vhd,1712849551,vhdl,,,,sistema119_tb,,,,,,,,
+C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/imports/new/dec7seg.vhd,1712769634,vhdl,,,,dec7seg,,,,,,,,
+C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/new/contador119.vhd,1712849551,vhdl,,,,contador119,,,,,,,,
+C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/new/ffD_preset.vhd,1712849551,vhdl,,,,ffd_preset,,,,,,,,
+C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/new/ffD_reset.vhd,1712849551,vhdl,,,,ffd_reset,,,,,,,,
+C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/new/ffT_preset.vhd,1712849551,vhdl,,,,fft_preset,,,,,,,,
+C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/new/ffT_reset.vhd,1712849551,vhdl,,,,fft_reset,,,,,,,,
+C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/new/sistema119.vhd,1712849551,vhdl,,,,sistema119,,,,,,,,
