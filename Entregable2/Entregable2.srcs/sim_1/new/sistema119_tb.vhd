@@ -35,7 +35,7 @@ begin
     
     stimuli : process
     begin
-    
+      
         ce <= '0'; reset <= '1';
         wait for 20 ns;
         reset <= '0'; ce <= '1';

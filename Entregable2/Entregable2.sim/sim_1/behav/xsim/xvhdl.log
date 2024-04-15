@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/new/contador119.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador119'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/imports/new/dec7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dec7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sources_1/new/sistema119.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sistema119'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/ULL/Sistemas-Electronicos-Digitales/Entregable2/Entregable2.srcs/sim_1/new/sistema119_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sistema119_tb'

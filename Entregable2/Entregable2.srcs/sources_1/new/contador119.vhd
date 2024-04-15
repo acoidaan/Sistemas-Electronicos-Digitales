@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity contador119 is
-    Port ( clk   : in std_logic;
+    port ( clk   : in std_logic;
            ce    : in std_logic;
            reset : in std_logic;
            count : out std_logic_vector (3 downto 0));
@@ -10,45 +10,37 @@ end contador119;
 
 architecture Behavioral of contador119 is
 
-    component ffD_reset
-        port (
-              clk   : in std_logic;
-              ce    : in std_logic;
-              reset : in std_logic;
-              d     : in std_logic;
-              q     : out std_logic
-              );
-    end component;
+  component ffD_preset
+    port ( clk    : in std_logic;
+           ce     : in std_logic;
+           preset : in std_logic;
+           d      : in std_logic;
+           q      : out std_logic);
+  end component;
 
-    component ffT_preset
-        port (
-              clk     : in std_logic;
-              ce      : in std_logic;
-              preset  : in std_logic;
-              t       : in std_logic;
-              q       : out std_logic
-              );
-    end component;
+  component ffD_reset
+    port ( clk   : in std_logic;
+          ce    : in std_logic;
+          reset : in std_logic;
+          d     : in std_logic;
+          q     : out std_logic);
+  end component;
 
-    component ffT_reset
-      port (
-            clk   : in std_logic;
-            ce    : in std_logic;
-            reset : in std_logic;
-            t     : in std_logic;
-            q     : out std_logic
-            );
-    end component;
+  component ffT_preset
+    port ( clk     : in std_logic;
+           ce      : in std_logic;
+           preset  : in std_logic;
+           t       : in std_logic;
+           q       : out std_logic);
+  end component;
 
-    component ffD_preset
-      port (
-            clk    : in std_logic;
-            ce     : in std_logic;
-            preset : in std_logic;
-            d      : in std_logic;
-            q      : out std_logic
-            );
-    end component;
+  component ffT_reset
+    port ( clk   : in std_logic;
+           ce    : in std_logic;
+           reset : in std_logic;
+           t     : in std_logic;
+           q     : out std_logic);
+  end component;
 
     signal qa, qb, qc, qd : std_logic;
     signal ta, db, dc, td : std_logic;
